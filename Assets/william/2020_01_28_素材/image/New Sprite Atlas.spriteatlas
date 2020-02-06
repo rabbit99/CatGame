@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 8124db9ec7c7e6843854c440b3a9378e, type: 3}
+    - {fileID: 2800000, guid: be5e6aeaa14d9004f80b86709a06bf16, type: 3}
+    - {fileID: 2800000, guid: 3e9450ccb65496543a9bc231bd96f1ce, type: 3}
+    - {fileID: 2800000, guid: 6057bab2ce17aea48ac87499f81086f4, type: 3}
+    - {fileID: 2800000, guid: 7ce2998dc2084094c91b7a758e545602, type: 3}
+    - {fileID: 2800000, guid: 812dd4c3d5b529844a1ede7f06a2a644, type: 3}
+    totalSpriteSurfaceArea: 816729
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: e55253c277168ef690385e5a54237425
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6057bab2ce17aea48ac87499f81086f4, type: 3}
+  - {fileID: 21300000, guid: 812dd4c3d5b529844a1ede7f06a2a644, type: 3}
+  - {fileID: 21300000, guid: be5e6aeaa14d9004f80b86709a06bf16, type: 3}
+  - {fileID: 21300000, guid: 3e9450ccb65496543a9bc231bd96f1ce, type: 3}
+  - {fileID: 21300000, guid: 7ce2998dc2084094c91b7a758e545602, type: 3}
+  - {fileID: 21300000, guid: 8124db9ec7c7e6843854c440b3a9378e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Icon_Community_Twitter
+  - Window_01
+  - Icon_Community_Facebook
+  - Icon_Community_Line
+  - Icon_Rabbit
+  - Icon_Arrow
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

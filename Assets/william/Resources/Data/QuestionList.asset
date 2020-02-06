@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 153f705bdd550bc4c962bb867006726d, type: 3}
+  m_Name: QuestionList
+  m_EditorClassIdentifier: 
+  SheetName: QuestionList
+  WorksheetName: QuestionList
+  dataArray:
+  - index: 1
+    question: "\u7A97\u6236\u5916\u9762\u5DF2\u7D93..."
+    option1: "\u4E0B\u96EA\u4E86.."
+    option2: "\u7B49\u7B49\u8981.."
+    option3: "\u59CA\u59CA\u4F60.."
+    answernum: 1
+  - index: 2
+    question: "\u6E2C\u8A662"
+    option1: "\u6E2C\u8A66\u9078\u98051"
+    option2: "\u6E2C\u8A66\u9078\u98052"
+    option3: "\u6E2C\u8A66\u9078\u98053"
+    answernum: 3
+  - index: 3
+    question: "\u6E2C\u8A663"
+    option1: "\u6E2C\u8A66\u9078\u98051"
+    option2: "\u6E2C\u8A66\u9078\u98052"
+    option3: "\u6E2C\u8A66\u9078\u98053"
+    answernum: 2
+  - index: 4
+    question: "\u6E2C\u8A664"
+    option1: "\u6E2C\u8A66\u9078\u98051"
+    option2: "\u6E2C\u8A66\u9078\u98052"
+    option3: "\u6E2C\u8A66\u9078\u98053"
+    answernum: 1
