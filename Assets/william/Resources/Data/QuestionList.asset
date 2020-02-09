@@ -12,30 +12,166 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 153f705bdd550bc4c962bb867006726d, type: 3}
   m_Name: QuestionList
   m_EditorClassIdentifier: 
-  SheetName: QuestionList
+  SheetName: TextContent
   WorksheetName: QuestionList
   dataArray:
   - index: 1
-    question: "\u7A97\u6236\u5916\u9762\u5DF2\u7D93..."
-    option1: "\u4E0B\u96EA\u4E86.."
-    option2: "\u7B49\u7B49\u8981.."
-    option3: "\u59CA\u59CA\u4F60.."
-    answernum: 1
+    question: "\u59CA\u59CA\u7684\u5305\u5305\u88E1\u6709\u6E96\u5099\u597D\u591A\u96F6\u98DF\uFF0C\u59B3\u60F3\u5148\u9078\u54EA\u500B\u958B\u59CB\u5403\u5462\uFF1F"
+    option1: "\u5145\u6EFF\u7A7A\u6C23\u7684\u6D0B\u828B\u7247"
+    mbti1: E
+    option2: "\u9B06\u9B06\u8EDF\u8EDF\u7684\u68C9\u82B1\u7CD6"
+    mbti2: P
+    option3: "\u5403\u4E00\u500B\u5C31\u98FD\u4E86\u7684\u9EB5\u5305"
+    mbti3: I
   - index: 2
-    question: "\u6E2C\u8A662"
-    option1: "\u6E2C\u8A66\u9078\u98051"
-    option2: "\u6E2C\u8A66\u9078\u98052"
-    option3: "\u6E2C\u8A66\u9078\u98053"
-    answernum: 3
+    question: "\u5982\u679C\u4E0B\u500B\u6708\u62FF\u5230\u5F88\u591A\u5F88\u591A\u7684\u96F6\u7528\u9322\uFF0C\u60F3\u8981\u600E\u9EBC\u82B1\u5462\uFF1F"
+    option1: "\u8ACB\u597D\u670B\u53CB\u4E00\u8D77\u5403\u4E0B\u5348\u8336"
+    mbti1: E
+    option2: "\u5230\u767E\u8CA8\u516C\u53F8\u8CB7\u6F02\u4EAE\u7684\u65B0\u8863\u670D"
+    mbti2: S
+    option3: "\u5B58\u8D77\u4F86\u9577\u5927\u518D\u82B1"
+    mbti3: S
   - index: 3
-    question: "\u6E2C\u8A663"
-    option1: "\u6E2C\u8A66\u9078\u98051"
-    option2: "\u6E2C\u8A66\u9078\u98052"
-    option3: "\u6E2C\u8A66\u9078\u98053"
-    answernum: 2
+    question: "\u59B3\u731C\uFF0C\u4E0B\u4E00\u4F4D\u4E0A\u8ECA\u7684\u65C5\u5BA2\u6703\u662F\uFF1F"
+    option1: "\u6F02\u4EAE\u7684\u5927\u59CA\u59CA"
+    mbti1: S
+    option2: "\u53EF\u611B\u7684\u5C0F\u59CA\u59CA"
+    mbti2: N
+    option3: "\u9577\u5F97\u4E2D\u4E8C\u7684\u54E5\u54E5"
+    mbti3: I
   - index: 4
-    question: "\u6E2C\u8A664"
-    option1: "\u6E2C\u8A66\u9078\u98051"
-    option2: "\u6E2C\u8A66\u9078\u98052"
-    option3: "\u6E2C\u8A66\u9078\u98053"
-    answernum: 1
+    question: "\u65E9\u9910\u7684\u8377\u5305\u86CB\u8981\u914D\u4EC0\u9EBC\u624D\u662F\u6700\u597D\u5403\u7684\u5462\uFF1F"
+    option1: "\u9ED1\u9ED1\u7684\u91AC\u6CB9"
+    mbti1: E
+    option2: "\u767D\u767D\u7684\u9E7D\u5DF4"
+    mbti2: S
+    option3: "\u7D05\u7D05\u7684\u756A\u8304\u91AC"
+    mbti3: T
+  - index: 5
+    question: "\u767C\u73FE\u8D70\u5728\u59B3\u524D\u9762\u7684\u4EBA\u4E82\u4E1F\u5783\u573E\uFF0C\u59B3\u6703\uFF1F"
+    option1: "\u53EB\u4ED6\u64BF\u8D77\u4F86"
+    mbti1: S
+    option2: "\u5E6B\u4ED6\u64BF\u8D77\u4F86"
+    mbti2: F
+    option3: "\u7576\u4F5C\u6C92\u770B\u5230"
+    mbti3: J
+  - index: 6
+    question: "\u751F\u65E5\u7684\u6642\u5019\u6700\u60F3\u8981\u6536\u5230\u4EC0\u9EBC\u79AE\u7269\u5462\uFF1F"
+    option1: "\u95DC\u6CE8\u4E86\u5F88\u4E45\u7684\u73A9\u5177"
+    mbti1: S
+    option2: "\u7CBE\u7DFB\u7684\u624B\u5DE5\u5C0F\u5361\u7247"
+    mbti2: F
+    option3: "\u4EE3\u8868\u5FC3\u610F\u7684\u9BAE\u82B1\u675F"
+    mbti3: P
+  - index: 7
+    question: "\u65E9\u4E0A\u8D77\u5E8A\u6703\u5148\u6D17\u81C9\u9084\u662F\u5148\u5237\u7259\u5462\uFF1F"
+    option1: "\u6211\u6703\u5148\u6D17\u81C9"
+    mbti1: N
+    option2: "\u6211\u6703\u5148\u5237\u7259"
+    mbti2: N
+    option3: "\u8981\u5148\u4E0A\u5EC1\u6240"
+    mbti3: F
+  - index: 8
+    question: "\u59B3\u559C\u6B61\u770B\u66F8\u55CE\uFF1F"
+    option1: "\u5F88\u559C\u6B61"
+    mbti1: J
+    option2: "\u4E0D\u559C\u6B61"
+    mbti2: S
+    option3: "\u4E0D\u559C\u6B61\u4E5F\u4E0D\u8A0E\u53AD"
+    mbti3: F
+  - index: 9
+    question: "\u5047\u65E5\u559C\u6B61\u53BB\u54EA\u88E1\u73A9\u5462\uFF1F"
+    option1: "\u53BB\u5C71\u4E0A\u4E58\u6DBC"
+    mbti1: E
+    option2: "\u53BB\u6D77\u908A\u73A9\u6C34"
+    mbti2: E
+    option3: "\u5F85\u5BB6\u88E1"
+    mbti3: I
+  - index: 10
+    question: "\u5148\u6709\u96DE\u9084\u662F\u5148\u6709\u86CB\u5462\uFF1F"
+    option1: "\u5148\u6709\u96DE"
+    mbti1: J
+    option2: "\u5148\u6709\u86CB"
+    mbti2: J
+    option3: "\u5148\u6709\u5154"
+    mbti3: F
+  - index: 11
+    question: "\u8C93\u54AA\u53EF\u6015\u55CE\uFF1F"
+    option1: "\u53EF\u6015"
+    mbti1: N
+    option2: "\u4E0D\u53EF\u6015"
+    mbti2: S
+    option3: "\u597D\u5403"
+    mbti3: F
+  - index: 12
+    question: "\u5154\u5B50\u53EF\u611B\u55CE\uFF1F"
+    option1: "\u53EF\u611B"
+    mbti1: F
+    option2: "\u4E0D\u53EF\u611B"
+    mbti2: J
+    option3: "\u662F\u795E\u7D93\u75C5"
+    mbti3: N
+  - index: 13
+    question: "\u5982\u679C\u809A\u5B50\u9913\u4E86\uFF0C\u59B3\u6703\u60F3\u5403\u9762\u524D\u7684\u54EA\u4E00\u7A2E\u52D5\u7269\u5462\uFF1F"
+    option1: "\u5154\u5B50"
+    mbti1: F
+    option2: "\u8C93\u54AA"
+    mbti2: P
+    option3: "\u7F8A\u7F8A"
+    mbti3: F
+  - index: 14
+    question: "\u59B3\u77E5\u9053\u5176\u5BE6\u5927\u59CA\u59CA\u6709\u53C3\u52A0\u4E00\u500B\u904A\u6232\u88FD\u4F5C\u5718\u968A\u55CE\uFF1F"
+    option1: "\u8C93\u54AA\u5B78\u5712"
+    mbti1: J
+    option2: "\u8C93\u54AA\u5B78\u54E1"
+    mbti2: F
+    option3: "\u8C93\u54AA\u5B78\u9662"
+    mbti3: F
+  - index: 15
+    question: "\u9019\u4E09\u500B\u6578\u5B57\uFF0C\u59B3\u6BD4\u8F03\u559C\u6B61\u54EA\u500B\u5462\uFF1F"
+    option1: 1
+    mbti1: S
+    option2: 7
+    mbti2: T
+    option3: 22
+    mbti3: P
+  - index: 16
+    question: "\u4F5C\u696D\u559C\u6B61\u5148\u5F9E\u96E3\u7684\u958B\u59CB\u5BEB\uFF0C\u9084\u662F\u7C21\u55AE\u7684\u958B\u59CB\u5BEB\u5462\uFF1F"
+    option1: "\u5148\u5BEB\u96E3\u7684"
+    mbti1: J
+    option2: "\u5148\u5BEB\u7C21\u55AE\u7684"
+    mbti2: N
+    option3: "\u6211\u90FD\u4E0D\u5BEB\u4F5C\u696D\u7684"
+    mbti3: P
+  - index: 17
+    question: "\u804A\u4E86\u9019\u9EBC\u4E45\u4E5F\u8A72\u53E3\u6E34\u4E86\uFF0C\u4F86\u559D\u9EDE\u6771\u897F\u5427\uFF01\u59B3\u8981\uFF1F"
+    option1: "\u6EAB\u958B\u6C34"
+    mbti1: J
+    option2: "\u71B1\u958B\u6C34"
+    mbti2: S
+    option3: "\u559C\u99AC\u62C9\u96C5\u5C71\u878D\u5316\u7684\u7D14\u6DE8\u96EA\u6C34"
+    mbti3: P
+  - index: 18
+    question: "\u4E5F\u5E6B\u5927\u59CA\u59CA\u9078\u4E00\u500B\u5427\uFF1F"
+    option1: "\u6709\u679C\u7C92\u7684\u67F3\u6A59\u6C41"
+    mbti1: F
+    option2: "\u73CD\u73E0\u52A0\u91CF\u7684\u73CD\u73E0\u5976\u8336"
+    mbti2: F
+    option3: "\u59B3\u9084\u662F\u559D\u6C34\u5427"
+    mbti3: J
+  - index: 19
+    question: "\u6BD4\u8F03\u559C\u6B61\u807D\u4EC0\u9EBC\u985E\u578B\u7684\u97F3\u6A02\u5462\uFF1F"
+    option1: "\u6292\u60C5"
+    mbti1: P
+    option2: "\u6416\u6EFE"
+    mbti2: E
+    option3: "\u52D5\u6F2B\u6CB9\u6B4C"
+    mbti3: I
+  - index: 20
+    question: "\u59B3\u6703\u4E0D\u6703\u89BA\u5F97\u59CA\u59CA\u6211\u5F88\u5435\u554A\uFF1F"
+    option1: "\u4E0D\u6703\u554A"
+    mbti1: F
+    option2: "\u9084\u597D\u5566"
+    mbti2: P
+    option3: "\u53EF\u4EE5\u9589\u5634\u4E86\u55CE\uFF1F"
+    mbti3: S

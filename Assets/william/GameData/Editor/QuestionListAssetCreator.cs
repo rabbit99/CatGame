@@ -12,7 +12,7 @@ public partial class GoogleDataAssetUtility
     public static void CreateQuestionListAssetFile()
     {
         QuestionList asset = CustomAssetUtility.CreateAsset<QuestionList>();
-        asset.SheetName = "QuestionList";
+        asset.SheetName = "TextContent";
         asset.WorksheetName = "QuestionList";
         EditorUtility.SetDirty(asset);        
     }
