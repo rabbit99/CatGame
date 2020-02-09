@@ -5,6 +5,7 @@ using UnityEngine;
 public class Setting : MonoBehaviour
 {
     public GameObject SettingPage;
+    public GameObject MenuBtn;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +23,12 @@ public class Setting : MonoBehaviour
         if (SettingPage.activeSelf)
         {
             SettingPage.SetActive(false);
+            MenuBtn.SetActive(true);
         }
         else
         {
             SettingPage.SetActive(true);
+            MenuBtn.SetActive(false);
         }
     }
 }

@@ -16,38 +16,34 @@ MonoBehaviour:
   scriptFilePath: william/GameData/Runtime
   editorScriptFilePath: william/GameData/Editor
   sheetName: TextContent
-  workSheetName: QuestionList
+  workSheetName: AnalysisResults
   columnHeaderList:
   - type: 3
     name: index
     isEnable: 0
     isArray: 0
   - type: 1
-    name: question
+    name: type
     isEnable: 0
     isArray: 0
   - type: 1
-    name: option1
+    name: title
     isEnable: 0
     isArray: 0
   - type: 1
-    name: mbti1
+    name: rank
     isEnable: 0
     isArray: 0
   - type: 1
-    name: option2
+    name: description
     isEnable: 0
     isArray: 0
   - type: 1
-    name: mbti2
+    name: storyline
     isEnable: 0
     isArray: 0
   - type: 1
-    name: option3
-    isEnable: 0
-    isArray: 0
-  - type: 1
-    name: mbti3
+    name: reward
     isEnable: 0
     isArray: 0
   AccessCode: 
