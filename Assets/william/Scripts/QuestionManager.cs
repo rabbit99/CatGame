@@ -56,7 +56,12 @@ public class QuestionManager : MonoBehaviour
     public void SetQuestion()
     {
         Flowchart.SetStringVariable("_question", _questionListDatas[_questionIndex].Question);
-        PageNum.text = (_questionIndex + 1) + "/" + _questionListDatas.Length;
+        string zero = null;
+        if(_questionIndex + 1 < 10)
+        {
+            zero = "0";
+        }
+        PageNum.text = zero + (_questionIndex + 1) + "/" + _questionListDatas.Length;
         
         setDollStateIndex();
     }
@@ -80,7 +85,7 @@ public class QuestionManager : MonoBehaviour
         initDic();
         SummaryWindow.ReSet();
         Flowchart.SetBooleanVariable("testFinish", false);
-        Flowchart.ExecuteBlock("QuestionStateStart");
+        Flowchart.ExecuteBlock("Reset");
     }
 
     public void Reply(int check)
@@ -217,5 +222,15 @@ public class QuestionManager : MonoBehaviour
                 _key = key2;
             }
         }
+    }
+
+    public void PlayCursorSound()
+    {
+        Flowchart.ExecuteBlock("CursorSound");
+    }
+
+    public void PlayBackSound()
+    {
+        Flowchart.ExecuteBlock("BackSound");
     }
 }
