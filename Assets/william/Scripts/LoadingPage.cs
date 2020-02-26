@@ -22,7 +22,8 @@ public class LoadingPage : MonoBehaviour
     public void Show()
     {
         LoadingImage.raycastTarget = true;
-        int index = Random.Range(0, 5);
+        int index = Random.Range(0, 4);
+        Debug.Log("index = " + index);
         LoadingImage.sprite = LoadingCGs[index];
         
         //gameObject.SetActive(true);
