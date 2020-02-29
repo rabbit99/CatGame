@@ -226,11 +226,16 @@ public class QuestionManager : MonoBehaviour
 
     public void PlayCursorSound()
     {
-        Flowchart.ExecuteBlock("CursorSound");
+        AudioController.Play("Cursor");
     }
 
     public void PlayBackSound()
     {
-        Flowchart.ExecuteBlock("BackSound");
+        AudioController.Play("Back");
+    }
+
+    public void RandomMusic()
+    {
+        AudioController.PlayMusic("InGameBgm");
     }
 }
