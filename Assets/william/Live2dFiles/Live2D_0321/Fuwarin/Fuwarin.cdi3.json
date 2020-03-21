@@ -1,0 +1,234 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamRage",
+			"GroupId": "",
+			"Name": "黒面"
+		},
+		{
+			"Id": "ParamMuneShake",
+			"GroupId": "",
+			"Name": "胸揺れ"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "ParamHairSide2",
+			"GroupId": "",
+			"Name": "髪揺れ　横2"
+		},
+		{
+			"Id": "ParamHairSide3",
+			"GroupId": "",
+			"Name": "髮搖れ　橫3"
+		},
+		{
+			"Id": "ParamDress",
+			"GroupId": "",
+			"Name": "服搖れ"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part36",
+			"Name": "軟軟_Live2D_原檔4.psd（対応無し）"
+		},
+		{
+			"Id": "Part",
+			"Name": "Fuwarin"
+		},
+		{
+			"Id": "Part11",
+			"Name": "ｹﾏｼhｲﾕｦX1"
+		},
+		{
+			"Id": "Part2",
+			"Name": "head"
+		},
+		{
+			"Id": "Part28",
+			"Name": "body_new"
+		},
+		{
+			"Id": "Part10",
+			"Name": "dress_down"
+		},
+		{
+			"Id": "Part29",
+			"Name": "hand_new"
+		},
+		{
+			"Id": "Part30",
+			"Name": "leg_new"
+		},
+		{
+			"Id": "Part13",
+			"Name": "hair_back"
+		},
+		{
+			"Id": "Part32",
+			"Name": "ponytail_new"
+		},
+		{
+			"Id": "Part3",
+			"Name": "face"
+		},
+		{
+			"Id": "Part9",
+			"Name": "ear"
+		},
+		{
+			"Id": "Part33",
+			"Name": "､pｰｨｧﾀL"
+		},
+		{
+			"Id": "Part34",
+			"Name": "､pｰｨｧﾀR"
+		},
+		{
+			"Id": "Part5",
+			"Name": "mayu"
+		},
+		{
+			"Id": "Part8",
+			"Name": "yokokami"
+		},
+		{
+			"Id": "Part4",
+			"Name": "mouth"
+		},
+		{
+			"Id": "Part6",
+			"Name": "eyeR"
+		},
+		{
+			"Id": "Part7",
+			"Name": "eyeL"
+		}
+	]
+}

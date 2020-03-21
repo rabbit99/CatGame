@@ -139,15 +139,17 @@ public class QuestionManager : MonoBehaviour
 
     private void setDollStateIndex()
     {
-        if (_dollStateIndex >= 4)
-        {
-            _dollStateIndex = 0;
-        }
-        else
-        {
-            _dollStateIndex++;
-        }
+        //if (_dollStateIndex >= 4)
+        //{
+        //    _dollStateIndex = 0;
+        //}
+        //else
+        //{
+        //    _dollStateIndex++;
+        //}
+        int _dollStateIndex = Random.Range(0, Live2dDollController.ExpressionsList.CubismExpressionObjects.Length);
         Live2dDollController.CurrentExpressionIndex = _dollStateIndex;
+        
     }
 
     private void addToSummaryDic(string ans)

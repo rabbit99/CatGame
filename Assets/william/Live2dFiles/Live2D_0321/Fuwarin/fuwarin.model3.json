@@ -1,0 +1,90 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Fuwarin.moc3",
+		"Textures": [
+			"Fuwarin.2048/texture_00.png"
+		],
+		"Physics": "Fuwarin.physics3.json",
+		"DisplayInfo": "Fuwarin.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Black.exp3.json",
+				"File": "Black.exp3.json"
+			},
+			{
+				"Name": "Despise.exp3.json",
+				"File": "Despise.exp3.json"
+			},
+			{
+				"Name": "Down.exp3.json",
+				"File": "Down.exp3.json"
+			},
+			{
+				"Name": "Embarrass.exp3.json",
+				"File": "Embarrass.exp3.json"
+			},
+			{
+				"Name": "Happy.exp3.json",
+				"File": "Happy.exp3.json"
+			},
+			{
+				"Name": "Left.exp3.json",
+				"File": "Left.exp3.json"
+			},
+			{
+				"Name": "Nomal.exp3.json",
+				"File": "Nomal.exp3.json"
+			},
+			{
+				"Name": "Right.exp3.json",
+				"File": "Right.exp3.json"
+			},
+			{
+				"Name": "Shy.exp3.json",
+				"File": "Shy.exp3.json"
+			},
+			{
+				"Name": "Surprised.exp3.json",
+				"File": "Surprised.exp3.json"
+			},
+			{
+				"Name": "Think.exp3.json",
+				"File": "Think.exp3.json"
+			},
+			{
+				"Name": "Up.exp3.json",
+				"File": "Up.exp3.json"
+			},
+			{
+				"Name": "Frustrated.exp3.json",
+				"File": "Frustrated.exp3.json"
+			},
+			{
+				"Name": "Sad.exp3.json",
+				"File": "Sad.exp3.json"
+			},
+			{
+				"Name": "Ridicule.exp3.json",
+				"File": "Ridicule.exp3.json"
+			},
+			{
+				"Name": "a.exp3.json",
+				"File": "a.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
