@@ -35,4 +35,6 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-!Assets/ThirdParty/QuickSheet/ExcelPlugin/Editor/Library
+!*.*.meta
+!*.dll
+!Assets/QuickSheet/ExcelPlugin/Editor/Library
