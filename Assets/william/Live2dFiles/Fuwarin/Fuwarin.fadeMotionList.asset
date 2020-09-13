@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403ae2dd693bb1d4b924f6b8d206b053, type: 3}
   m_Name: Fuwarin.fadeMotionList
   m_EditorClassIdentifier: 
-  MotionInstanceIds: 0cf2ffff
+  MotionInstanceIds: 0cf2ffffb6590000
   CubismFadeMotionObjects:
+  - {fileID: 11400000, guid: f46e35a8037adb041b43a36afbfeb747, type: 2}
   - {fileID: 11400000, guid: f46e35a8037adb041b43a36afbfeb747, type: 2}
