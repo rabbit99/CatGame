@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebf1a95715bf4846a0c3cfc9222b0c9, type: 3}
+  m_Name: RabbitShop
+  m_EditorClassIdentifier: 
+  SheetName: TextContent
+  WorksheetName: RabbitShop
+  dataArray:
+  - index: 1
+    itemname: "\u8A18\u61B6\u7684\u788E\u7247 I"
+    rabbitpoint: 1
+  - index: 2
+    itemname: "\u8A18\u61B6\u7684\u788E\u7247 II"
+    rabbitpoint: 2
+  - index: 3
+    itemname: "\u8A18\u61B6\u7684\u788E\u7247 III"
+    rabbitpoint: 4
+  - index: 4
+    itemname: "\u8A18\u61B6\u7684\u788E\u7247 IV"
+    rabbitpoint: 6
+  - index: 5
+    itemname: "\u8A18\u61B6\u7684\u788E\u7247 V"
+    rabbitpoint: 6
+  - index: 6
+    itemname: "\u8A18\u61B6\u7684\u788E\u7247 VI"
+    rabbitpoint: 6
+  - index: 7
+    itemname: "\u53EF\u611B\u7684\u7167\u7247 I"
+    rabbitpoint: 2
+  - index: 8
+    itemname: "\u53EF\u611B\u7684\u7167\u7247 II"
+    rabbitpoint: 4
+  - index: 9
+    itemname: "\u53EF\u611B\u7684\u7167\u7247 III"
+    rabbitpoint: 4
+  - index: 10
+    itemname: "\u53EF\u611B\u7684\u7167\u7247 IV"
+    rabbitpoint: 8

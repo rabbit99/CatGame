@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4053875976336658312}
   - component: {fileID: 7079489314205523259}
   - component: {fileID: 2372670707585281701}
+  - component: {fileID: 1156650667125136706}
   m_Layer: 5
   m_Name: CommodityObject
   m_TagString: Untagged
@@ -91,7 +92,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8525479485287162782}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1156650667125136706}
+        m_MethodName: PurchaseByRabbit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &2372670707585281701
 Animator:
   serializedVersion: 3
@@ -111,6 +123,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1156650667125136706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6698951901543385527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9defe17361d751f4b9100318d1853816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemNameText: {fileID: 8525479485287162782}
+  rabbitpointText: {fileID: 5799477697402267220}
+  itemName: 
+  rabbitpoint: 0
+  animator: {fileID: 2372670707585281701}
 --- !u!1 &7780340904870144021
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +417,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 91, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 771.4822, y: 94.29077}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &2891263994157731775
 CanvasRenderer:
